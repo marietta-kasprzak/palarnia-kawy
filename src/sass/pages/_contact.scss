@@ -1,0 +1,56 @@
+.form {
+    margin-top: 30px;
+  }
+  
+  input {
+    padding-top: 20px;
+    width: 300px;
+  }
+  
+  .message {
+    padding: 70px;
+  }
+  
+  .contact_us span{
+    margin: auto;
+    color: black;
+    font-family: 'Source Sans Pro';
+    padding: 10px;
+    font-size: small;
+    font-weight: 500;
+  }
+  
+  .button {
+    background-color: #CC9966;
+    border: #CC9966;
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size:small;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #pages > section {
+    display: none;
+  
+    &.active{
+      display: block;
+    }
+  }
+  
+  .contact_us_title {
+    text-align: center;
+    color: #CC9966;
+    font-family: 'Source Sans Pro';
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .line_contact {
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+    border-top: 3px solid #CC9966;
+    width: 100%;
+  }

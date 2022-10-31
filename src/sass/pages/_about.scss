@@ -1,0 +1,60 @@
+.about_us_title {
+    padding-top: 10%;
+    text-align: center;
+    color: #CC9966;
+    font-family: 'Source Sans Pro';
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .about_us .title{
+    padding: ($base-size * 5) 0 ($base-size * 8) 0;
+    background-image: url("../images/about-us.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+    max-width: max-content;
+  
+    span {
+      text-align: left;
+      color: white;
+      padding: 20px;
+      font-family: 'Source Sans Pro';
+      font-size: medium;
+      max-width: 60%;
+      margin-left: 20%;
+      position: relative;
+      z-index: 2;
+      
+      .join {
+        text-align: right;
+        padding: 20px;
+        color: white;
+        display: block;
+        font-family: 'Source Sans Pro';
+        max-width: 100%;
+
+      }
+    }
+  }
+  
+  .about_us .title:after {
+    background: rgba(0,0,0,0.5);
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .about_us .title {
+    position: relative;
+  }

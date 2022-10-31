@@ -1,3 +1,113 @@
-//PRODUCTS
+.products_section {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
 
+.products {
+  max-width: 100vw;
+  padding: 0 100px 0 150px;
+}
 
+.products_title {
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  color: #cc9966;
+}
+
+.products_board {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.products_board:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.image {
+  width: 100%;
+}
+
+.product_image {
+  width: 300px;
+  height: auto;
+  position: relative;
+  padding: 20px;
+
+}
+
+.price_section {
+  width: 0;
+  height: 0;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  border-top: 60px solid $burlywood;
+  border-left: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid $burlywood;
+
+  span {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+  }
+
+  .old_price {
+    text-decoration: line-through;
+    margin-top: 0;
+    position: absolute;
+    top: -50px;
+  }
+
+  .new_price {
+    top: -30px;
+    font-size: 30px;
+    margin-right: 20px;
+    position: absolute;
+  }
+}
+
+.product_description {
+  width: 50%;
+  font-family: "Source Sans Pro";
+  display: inline-block;
+
+  h3 {
+    font-family: "Source Sans Pro";
+    font-weight: black;
+    font-size: 30px;
+  }
+}
+
+.product_list {
+  font-family: "Source Sans Pro";
+  font-size: small;
+}
+
+.line_product {
+  border: 0;
+  margin: 0 auto;
+  padding: 0;
+  border-top: 3px solid $burlywood;
+  width: 400px;
+  margin-right: 10px;
+}
+
+.under_title {
+  display: flex;
+}
+
+.roasting {
+  font-weight: bold;
+}
+
+.roasting_value {
+  color: $burlywood;
+  text-decoration: solid;
+  font-weight: bold;
+}
